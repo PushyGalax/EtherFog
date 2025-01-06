@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1B1B"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Select a Color to Edit:"
+        android:textSize="18sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:columnCount="4"
+        android:rowCount="4">
+
+        <!-- Color Previews (14 total) -->
+        <View
+            android:id="@+id/colorPreview1"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#FF0000" /> <!-- Red -->
+
+        <View
+            android:id="@+id/colorPreview2"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#00FF00" /> <!-- Green -->
+
+        <View
+            android:id="@+id/colorPreview3"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#0000FF" /> <!-- Blue -->
+
+        <View
+            android:id="@+id/colorPreview4"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#FFFF00" /> <!-- Yellow -->
+
+        <View
+            android:id="@+id/colorPreview5"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#FF00FF" /> <!-- Magenta -->
+
+        <View
+            android:id="@+id/colorPreview6"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#00FFFF" /> <!-- Cyan -->
+
+        <View
+            android:id="@+id/colorPreview7"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#800080" /> <!-- Purple -->
+
+        <View
+            android:id="@+id/colorPreview8"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#FFA500" /> <!-- Orange -->
+
+        <View
+            android:id="@+id/colorPreview9"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#008000" /> <!-- Dark Green -->
+
+        <View
+            android:id="@+id/colorPreview10"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#000080" /> <!-- Dark Blue -->
+
+        <View
+            android:id="@+id/colorPreview11"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#808080" /> <!-- Gray -->
+
+        <View
+            android:id="@+id/colorPreview12"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#A52A2A" /> <!-- Brown -->
+
+        <View
+            android:id="@+id/colorPreview13"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#FFC0CB" /> <!-- Pink -->
+
+        <View
+            android:id="@+id/colorPreview14"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF" /> <!-- White -->
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/send" />
+
+</LinearLayout>

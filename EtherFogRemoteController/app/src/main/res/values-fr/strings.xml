@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EtherFogRemoteController</string>
+    <string name="green">Vert</string>
+    <string name="modeselector">Choisissez votre rôle</string>
+    <string name="GM">Maître de jeu</string>
+    <string name="player">Joueur</string>
+    <string name="GMMenue">Menu du maître de jeu</string>
+    <string name="PMenue">Menu du Joueur</string>
+    <string name="Back">Retour</string>
+    <string name="SetColor">Définir la couleur</string>
+    <string name="GameState">Tour de jeu</string>
+    <string name="RandomNumber">Nombre aléatoire</string>
+    <string name="red">Rouge</string>
+    <string name="blue">Bleu</string>
+    <string name="SendColor">Envoyer la couleur</string>
+    <string name="send">Valider</string>
+    <string name="character">Nom de votre personnage</string>
+    <string name="charactersetting">Entrer le nom de votre personnage</string>
+    <string name="cast">Lancer un sort</string>
+    <string name="spell">Nom du sort</string>
+    <string name="characterselect">Selectionner le personnage :</string>
+</resources>

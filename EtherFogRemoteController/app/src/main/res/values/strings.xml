@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EtherFogRemoteController</string>
+    <string name="green">Green</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="modeselector">Select Your Mode</string>
+    <string name="GM">Game master</string>
+    <string name="player">Player</string>
+    <string name="GMMenue">Game Master Menu</string>
+    <string name="PMenue">Player Menu</string>
+    <string name="Back">Back</string>
+    <string name="SetColor">Set Color</string>
+    <string name="GameState">Game State</string>
+    <string name="RandomNumber">Random Number</string>
+    <string name="SendColor">Send Color</string>
+    <string name="send">Send</string>
+    <string name="character">Character\'s name</string>
+    <string name="charactersetting">Enter Your Character Name</string>
+    <string name="cast">Cast spell</string>
+    <string name="spell">Spell\'s name</string>
+    <string name="characterselect">Select Character :</string>
+</resources>
